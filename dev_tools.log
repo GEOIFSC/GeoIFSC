@@ -1,0 +1,2 @@
+ [debug] mklink /D "C:\Users\Arthur Berbert\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\GeoIFSC" "D:\Visual Studio\QGIS_GeoIFSC_Beta\src\geoifsc"
+[11/07/2025 20:33:05,94] bump from=1.0.0 to=1.0.1

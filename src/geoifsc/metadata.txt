@@ -1,0 +1,32 @@
+[general]
+name=GeoIFSC
+qgisMinimumVersion=3.0
+qgisMaximumVersion=3.99
+description=Plugin do GeoIFSC para funcionalidades geoespaciais
+version=1.0.0
+author=GeoIFSC Team
+email=geoifsc@ifsc.edu.br
+
+about=Plugin desenvolvido pelo GeoIFSC que oferece funcionalidades para upload de dados raster para PostgreSQL/PostGIS e outras ferramentas geoespaciais.
+
+tracker=https://github.com/geoifsc/qgis-plugin/issues
+repository=https://github.com/geoifsc/qgis-plugin
+
+# Dependências
+hasProcessingProvider=no
+hasProcessingAlgorithms=no
+
+# Tags
+tags=postgis,raster,database,upload,postgresql
+
+# Ícone
+# icon=icon.png
+
+# Experimental
+experimental=False
+
+# Deprecated
+deprecated=False
+
+# Categoria
+category=Database
