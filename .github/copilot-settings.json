@@ -1,0 +1,9 @@
+{
+  "github.copilot.enable": { "*": true },
+  "github.copilot.inlineSuggest.enable": true,
+  "github.copilot.advanced.prompt": "Você é um desenvolvedor Python sênior. Gere código seguindo estas diretrizes: PEP8; use psycopg2 para conexão com PostgreSQL; no DAO (db_manager.py) não execute commit/rollback; na camada de serviço (role_manager.py) controle transações; implemente UI em PyQt6 conforme DDS; conecte signals e slots explicitamente; use dataclasses para entidades User e Group; configure logger global; mantenha comentários de documentação para cada método.",
+  "github.copilot.completion.maxTokens": 1000,
+  "github.copilot.completion.temperature": 0.2,
+  "github.copilot.suggestionDelay": 50,
+  "github.copilot.scopes": { "python": true }
+}
