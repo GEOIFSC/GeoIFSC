@@ -22,3 +22,16 @@ def classFactory(iface):
     """
     from .geoifsc_plugin import GeoIFSCPlugin
     return GeoIFSCPlugin(iface)
+
+# Expor classes do módulo de gerenciamento de usuários
+from .db_manager import DBManager  # noqa: E402
+from .role_manager import RoleManager  # noqa: E402
+from .models import User, Group  # noqa: E402
+
+__all__ = [
+    "classFactory",
+    "DBManager",
+    "RoleManager",
+    "User",
+    "Group",
+]
